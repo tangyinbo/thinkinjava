@@ -1,0 +1,79 @@
+!SESSION 2014-12-08 15:36:59.921 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2014-12-08 15:37:28.751
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-08 15:37:28.752
+!MESSAGE A conflict occurred for CTRL+F5:
+Binding(CTRL+F5,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.UpdateAction,Update,
+		Update selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F5,
+	ParameterizedCommand(Command(com.spket.ui.tasks.refresh_tasks,Refresh Tasks,
+		,
+		Category(org.eclipse.ui.category.project,Project,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:31.467
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:31.568
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:31.591
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:31.638
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:31.670
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:31.715
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:31.782
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:31.852
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:31.931
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:31.985
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-12-08 15:37:32.044
+!MESSAGE Installed snippet library: C:\software\javal\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\131\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-12-08 15:38:01.990
+!MESSAGE An internal error occurred during: "CheckLicensesAndNotify".
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.pulse.client.targetcfg.collab.ui.jobs.CheckLicensesAndNotifyJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-12-08 15:38:03.398
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.pulse.client.targetcfg.collab.ui.internal.InformAboutDashboardStartup$CheckDashboardPreferencesAndNotifyJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-12-08 15:38:03.401
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.pulse2.client.targetcfg.ui.jobs.InitializeTargetCfgJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-12-08 15:38:03.403
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.pulse2.client.services.internal.PulseClient$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2014-12-08 15:38:03.404
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.pulse2.client.services.internal.PulseClient$1
